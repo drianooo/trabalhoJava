@@ -1,11 +1,11 @@
 server: 
-    port: ${PORT:8080}
+    port: 8080
 
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/pets
-        username: postgres
-        password: root
+        url: jdbc:postgresql://dpg-ct1i1ortq21c73ep2n70-a.oregon-postgres.render.com
+        username: banco_ayh4_user
+        password: zy9Kokn16ZWWYLnPu9VtmKwEvfPMTOWI
         driver-class-name: org.postgresql.Driver
         initialize: true
     
